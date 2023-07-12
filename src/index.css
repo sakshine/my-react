@@ -1,13 +1,311 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* header css */
+.nav1{
+  padding-left: 130px; 
+  font-family: serifs;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.a{
+font-weight: bold;
+color: red;
+padding: 24px 24px;
+text-decoration: none;
+}
+Link {
+/*color: var(--bs-link-color);*/
+color: white;
+text-decoration: none;
+padding: 24px 24px; 
+/*nav-link dropdown-toggler*/
+}
+.n-li{
+font-weight: bold;
+color: white;
+padding: 0 24px;
+text-decoration: none;
+}
+.navbar-expand-md .navbar-nav .nav-link{
+padding: 0 20px;
+}
+.nav{
+background-color: black;
+height: 160px;
+}
+.navbar-brand h3{
+margin-left: 130px;
+margin-top: -54px;
+}
+.banner{
+height: 800px;
+}
+.navbar-toggler .navbar-toggler-icon{
+padding: 0.25rem 0.75rem;
+font-size: 1.25rem;
+line-height: 1;
+background-color: white;
+border: 1px solid white;
+border-radius: 0.25rem;
+position: relative;
+}
+
+
+
+
+/* footer css */
+.footerb{
+  background-color:#000;
+}
+.footerc{
+  background-color: #3b5998
+}
+.d{
+  background-color: #55acee
+}
+.e{
+  background-color: #dd4b39
+}
+.f{
+  background-color: #ac2bac
+}
+.g{
+  background-color: #0082ca
+}
+.h{
+  background-color: #333333
+}
+.i{
+  background-color:black;
+   color:rgb(250, 246, 246);
+}
+.footer{
+  width: 100%;
+  height: 160px;
+  
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #000;
+  
+}
+.footer p{
+  color: white;
+}
+.footer p:hover{
+  color: red;
+  text-decoration: underline;
+  font-size: 15px;
+}
+.tx{
+  color: red;
+  font-family: etalic;
+}
+.tx:hover{
+  font-size: 20px;
+  color: wheat;
+  text-decoration: underline;
+}
+
+
+
+/* home css */
+.banner{
+  background: var(--bg-red);
+}
+.carousel-caption{
+  bottom: 3.5rem;
+}
+.carousel-indicators [data-bs-target]{
+  width:12px;
+  height:12px;
+  border-radius: 50%;
+  background-color:var(--bg-yellow) !important;
+}
+.title-box .img{
+  height: 54px;
+  width: 204px;
+  background-image: url(../public/image/slider/sliderfood1.jpg);
+  padding: 0 0 52px;
+  margin: 0 auto 30px;
+}
+.b{
+          
+          width: 350px;
+          height: 500px;
+          float: left;
+          margin: 12px;
+          background: white;
+          margin-top: 30px;
+}
+.c{
+          height: 247px;
+          width: 300px;
+}
+
+.logo{
+          padding: 10px 20px;
+          color: red;
+          background-color: black;
+      }
+.footer{
+              width: 100%;
+              height: 160px;
+              
+              padding-top: 30px;
+              padding-bottom: 30px;
+              background-color: #000;
+}
+.title::before, .title::after{
+  content: "";
+  height: 2px;
+  background-color: #000;
+  display: block;
+}
+.title{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  column-gap: 1.6 rem;
+  font-family: cursive;
+}
+.back h3{
+  color: white;
+}
+.back p{
+  color: white;
+}
+.back h3:hover{
+  color: red;
+}
+.back p:hover{
+  color: red;
+}
+.back{
+  background-color: black;
+}
+.why img{
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  padding: auto;
+}
+.why1 img{
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  padding: auto;
+}
+.why2 img{
+  width: 100%;
+  height: 250px;
+  margin: auto;
+  padding: auto;
+}
+.p{
+  font-weight: bold;
+  font-family: serif;
+  margin-top: 20px;
+}
+
+
+
+/* menu css */
+.menud{
+  width: 100%;
+  padding: 50px;
+  background-color: black;
+}
+.menue{
+  color: white;
+  font-weight: bold;
+}
+.space{
+  padding-left: 130px
+}
+.bak{
+  background-image: url(../public/image/testimonial/menu.webp);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.bak h1{
+margin-top: 200px;
+margin-left: 300px;
+font-family: var(--secondary-font);
+font-weight: bold;
+font-size: 100px;
+}
+.d a:hover{
+color: red;
+}
+.sz{
+  height: 700px;
+  width: 100%;
+}
+
+/* about css */
+.q{
+  text-align: center;
+}
+.k{
+  font-weight: bold; font-family: serif;
+}
+.us{
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  padding: 80px;
+}
+.us h2:hover{
+  color: beige;
+  font-size: 30px;
+  text-decoration: underline;
+}
+.us p:hover{
+  color: beige;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+
+.you h3{
+  font-family: serif;
+ font-weight: bold;
+}
+.you p{
+  font-weight: bold;
+}
+
+/* contact us css */
+.hi{
+  margin-right: 20px;
+}
+.g{
+  background-color: beige;
+}
+
+.form{
+  background-image: url(../public/image/testimonial/form.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  
+}
+.why2{
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+  margin-top: 150px;
+}
+.why3 img{
+  width: 100%;
+  height: 600px;
+  margin-bottom: 150px;
+}
+.Contacta{
+  padding-left: 100px;
+}
+.bo{
+  font-weight: bold;
 }
