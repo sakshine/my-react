@@ -5,8 +5,8 @@ function Home() {
     <> 
     <br/><br/><br/><br/>
    <div>
-      <div className="container-fluid banner">
-        <div className="row">
+      <div className="container-fluid ">
+        <div className="row ">
           <div className="carousel slide" data-bs-ride="carousel" id="a">
 
             <div className="carousel-indicators"> 
@@ -33,15 +33,15 @@ function Home() {
               </button>
 
               <button className="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
-                <span className="carousel-control-next-icon"></span>
+                <div className="carousel-control-next-icon"></div>
               </button>
             </div>
-          </div>
+          </div> 
         </div>
-        </div>
+        </div> 
         
 
-<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/>
 
         <div className="logo">
       <center>
@@ -58,7 +58,7 @@ function Home() {
            <div className="col-md-4">
              <img src="/image/testimonial/indian1.jpg"/>
            </div>
-
+           
            <div className="col-md-4">
              <img src="/image/testimonial/indian2.jpg"/>
            </div>
